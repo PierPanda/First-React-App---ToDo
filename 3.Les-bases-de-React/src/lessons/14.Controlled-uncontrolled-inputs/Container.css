@@ -1,0 +1,27 @@
+label, input {
+  display: block;
+}
+
+label{
+  margin-bottom: 2px;
+}
+
+input {
+  margin-bottom: 14px;
+}
+
+button {
+  padding: 2px 4px;
+  margin-bottom: 14px;
+}
+
+.email-validation {
+  display: none;
+}
+
+.validation {
+  font-size: 0.5rem;
+  text-transform: capitalize;
+  color: red;
+  padding: 0 0.5rem;
+}
