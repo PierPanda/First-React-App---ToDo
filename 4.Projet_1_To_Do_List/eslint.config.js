@@ -34,5 +34,15 @@ export default [
         { allowConstantExport: true },
       ],
     },
+    "overrides": [
+      {
+        "files": ["*.jsx"],
+        "rules": {
+          "react/prop-types": "off",
+          "no-unused-vars": "off",
+          "no-undef": "off"
+        }
+      }
+    ]
   },
 ]
